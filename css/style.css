@@ -1,0 +1,137 @@
+body {
+    font: 16px/28px arial, sans-serif;
+    background-color: #eaeaea;
+}
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.header .katik {
+    background-color: aqua;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.katik {
+    color: rgb(54, 39, 94);
+    text-align: center;
+}
+
+.header p {
+    text-align: center;
+}
+
+.header{
+    text-align: center;
+}
+
+.header ul li {
+    text-align: center;
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+
+.luas {
+    border: 2px solid black;
+}
+
+.luas1 {
+    padding: 10px;
+    margin-bottom: -15px;
+}
+
+.judul1 {
+    background-color: rgb(202, 157, 24);
+    border-bottom: 2px solid black;
+    padding: 10px;
+    color: white;
+    font-size: 100%;
+    text-align: center;
+}
+
+img {
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rumus-luas {
+    text-align: center;
+    font-size: 130%;
+    border: 1px solid black;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.keliling {
+    border: 2px solid black;
+}
+
+.keliling1 {
+    padding: 10px;
+    margin-bottom: -15px;
+}
+
+.judul2 {
+    background-color: rgb(202, 157, 24);
+    border-bottom: 2px solid black;
+    padding: 10px;
+    color: white;
+    font-size: 100%;
+    text-align: center;
+}
+
+.rumus-keliling {
+    text-align: center;
+    font-size: 130%;
+    border: 1px solid black;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px 1px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button[type="reset"] {
+    background-color: #f44336;
+    float: right;
+}
+
+button[type="reset"]:hover {
+    background-color: #e53935;
+}
+
+.footer {
+    background-color: #333;
+    padding: 1px;
+}
+
+.footer .copy {
+    color: aliceblue;
+    text-align: center;
+    font-size: 16px;
+}

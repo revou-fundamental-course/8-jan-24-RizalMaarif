@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tugas Revou</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="header">
+            <div class="katik">
+                <h1 class="kalkulator">KATIK KALKULATOR MATEMATIK</h1>
+            </div>
+            <h2>Welcome To Katik</h2>
+            <p>Hallo Semuanya, <br> Selamat Datang di Web Sederhana Untuk Menghitung Luas dan Keliling Persegi</P>
+            <hr><br>
+        </div>
+
+        <form id="calculator">
+            <div class="luas">
+                <div class="judul1">
+                    <h2>Luas Persegi</h2>
+                </div>
+                <img src="asset/persegi.PNG">
+                <div class="luas1">
+                    <p>Rumus Luas Persegi :</p>
+                    <div class="rumus-luas">
+                        <p><b>L = S x S </b></p>
+                    </div>
+                    <p>Di mana: <br>L = Luas <br> S = Sisi</p>
+                    <h2>Hitung Luas Persegi</h2>
+                    <label for="sideLength">Masukkan Panjang Sisi:</label><br>
+                    <input type="number" id="sideLength" name="sideLength" required><br>
+                    <button type="submit">Hitung</button>
+                    <button type="reset">Reset</button>
+                    <h2>Hasil :</h2>
+                    <hr>
+                    <p id="result"></p><br>
+                    <hr><br>
+                </div>
+            </div>
+        </form><br><br><br>
+
+        <form id="persegi-form">
+            <div class="keliling">
+                <div class="judul2">
+                    <h2>Keliling Persegi</h2>
+                </div>
+                <img src="asset/persegi.PNG">
+                <div class="keliling1">
+                    <p>Rumus Keliling Persegi</p>
+                    <div class="rumus-keliling">
+                        <p><b>K = S X 4 </b></p>
+                    </div>
+                    <p>Di mana: <br>K = Keliling <br> S = Sisi</p>
+                    <h2>Hitung Keliling Persegi</h2>
+                    <label for="sisi">Masukkan Panjang Sisi:</label><br>
+                    <input type="number" id="sisi" name="sisi" required><br>
+                    <button type="button" id="hitung-keliling">Hitung</button>
+                    <button type="reset" id="reset">Reset</button>
+                    <h2>Hasil :</h2>
+                    <hr>
+                    <p id="hasil"></p><br>
+                    <hr><br>
+                </div>
+            </div>
+        </form>
+
+        <div class="footer">
+            <p class="copy">Mohammad Rizal Maarif</p>
+        </div>
+    </div>
+
+    <script src="javascript/script.js"></script>
+
+</body>
+
+</html>
